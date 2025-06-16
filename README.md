@@ -62,8 +62,11 @@ Fig. 2. Data Flow Diagram Of Smart Assistive Spectacles
 
 The data flow diagram outlines the development process of the smart AI-assisted spectacles. It begins with the hardware setup, including assembling the smart glasses and ensuring a stable power supply. Concurrently, the AI model development phase involves training a YOLOv8 model for object detection and optimizing it for real-time processing. The software integration stage entails installing OpenCV for image processing and a Text-to-Speech (TTS) engine for voice output. System integration connects the hardware and software components, including uploading the trained YOLOv8 model and OpenCV library. Finally, the testing and iteration phase involves conducting user testing to refine object detection, voice guidance, and overall system performance.
 
+## 🔲 Block Diagram
 
-Fig. 3. Flowchart Of Smart Assistive Spectacles
+![Block Diagram](https://github.com/ZuhaibRakhangi/AI-smart-speactacles-/blob/main/block%20diagram.jpg?raw=true)
+
+Fig. 3. Block Diagram Of Smart Assistive Spectacles
 
 This diagram illustrates the hardware and software architecture of the smart spectacles. The user interacts with the system by wearing the spectacles. The spectacles are equipped with various sensors, including a camera for capturing visual information, a microphone for capturing audio input, and additional sensors for context awareness. These sensory inputs are processed by the embedded processor within the spectacles. The processor leverages AI algorithms to analyze the captured data, detect objects in the user's environment, and generate appropriate voice feedback through the speaker. The system may also interact with external databases for storing user preferences, calibration data, and potentially learning from user interactions to improve performance over time.
 
