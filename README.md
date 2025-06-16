@@ -53,7 +53,9 @@ Fig. 1. Block Diagram Of Smart Assistive Spectacles
 
 The block diagram illustrates the core functionality of the smart AI-assisted spectacles. Upon initialization and hardware check, the system captures real-time visual data from the user's perspective. This raw image data undergoes preprocessing steps to enhance clarity and facilitate object detection. Subsequently, AI algorithms analyze the processed images to identify and locate relevant objects in the user's surroundings. The system then estimates the distance to these objects, integrating this information with other relevant data. Finally, the system provides real-time feedback to the user through voice guidance, alerting them to the presence, location, and distance of objects in their environment. This continuous feedback loop enables visually impaired individuals to navigate their surroundings with greater independence and confidence.
 
+## 🔁 Data Flow Diagram
 
+![Data Flow Diagram](https://github.com/ZuhaibRakhangi/AI-smart-speactacles-/blob/main/dfd.jpg?raw=true)
  
 
 Fig. 2. Data Flow Diagram Of Smart Assistive Spectacles
